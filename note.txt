@@ -1,0 +1,13 @@
+header - amatic - 48px
+
+logo font - lato - bold -16px
+
+caption-button - lato - 16px
+
+title - lato -24px -bold
+
+large-title - lato 48px - bold
+
+body -  lato 14px 
+
+sapo lato - 14px - italic

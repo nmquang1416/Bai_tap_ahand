@@ -1,0 +1,27 @@
+:root{
+    /* color */
+    --c10: #F2F2F2;
+    --c20: #E6E6E6;
+    --c30: #CCCCCC;
+    --c40: #B3B3B3;
+    --c50: #999999;
+    --c60: #808080;
+    --c70: #666666;
+    --c80: #4D4D4D;
+    --c90: #333333;
+    --c100: #1A1A1A;
+    --no-color: #00000000;
+    --black: #000;
+    --white: #fff;
+    --Secondary: #CE1212;
+    --Sub-secondary: #DB5050;
+    /* font */
+    --font-secondary: amatic sc;
+    --font-primary: lato;
+    --font-weight-rehular: 500;
+    --font-weight-bold: 700;
+    --font-size-body-14px:14px;
+    --font-size-caption-16px: 16px;
+    --font-size-header-48px: 48px;
+    --font-style-sapo: italic;
+}
