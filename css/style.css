@@ -514,6 +514,22 @@ section#section-5 .transfer-bg{
 #section-6 .container form input#people{
     margin-right: 0!important;
 }
+#section-6 .container form input#date{
+    width: 225px;
+    font-family: var(--font-primary);
+    padding-right: 16px;
+}
+
+#section-6 .container form input#time{
+    padding-right:16px ;
+    font-family: var(--font-primary);
+    width: 225px;
+}
+#section-6 .container form input#people{
+    padding-right:16px ;
+    font-family: var(--font-primary);
+    width: 225px;
+}
 #section-6 .container form textarea{
     width: 799px;
     height: 272px;
