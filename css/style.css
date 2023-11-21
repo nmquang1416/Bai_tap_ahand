@@ -74,12 +74,19 @@ nav ul li.nav-bar-items a{
 }
 #book-a-table{
     text-align: center;
+    
 }
+
 #book-a-table a{
+    border: solid 1px var(--Secondary);
     background-color: var(--Secondary);
     padding: 12px 24px;
     color: var(--white);
     border-radius: 36px; 
+}
+#book-a-table:hover a{
+    background-color: var(--no-color);
+    color: var(--Secondary);
 }
  
 
