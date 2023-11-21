@@ -56,8 +56,18 @@ nav ul li.nav-bar-items
     font-size: var(--font-size-caption-16px);
     padding: 36px 24px;
     float: left;
+    cursor: pointer;
 }
 
+nav ul li.nav-bar-items:hover a{
+    color: var(--Secondary);
+}
+
+nav ul li.nav-bar-items:hover{
+    transition: 0.3s;
+    border-bottom: solid 1px var(--Secondary);
+    background-color: var(--c30);
+}
 li.center-align-nav{
     list-style: none;
 }
