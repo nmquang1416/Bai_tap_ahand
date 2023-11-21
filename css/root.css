@@ -14,12 +14,13 @@
     --black: #000;
     --white: #fff;
     --Secondary: #CE1212;
-    --Sub-secondary: #DB5050;
+    --Sub-secondary: rgba(223, 47, 47, 0.302);
     /* font */
     --font-secondary: amatic sc;
     --font-primary: lato;
-    --font-weight-rehular: 500;
+    --font-weight-rehular: 300;
     --font-weight-bold: 700;
+    --font-weight-ex-bold: 900;
     --font-size-body-14px:14px;
     --font-size-caption-16px: 16px;
     --font-size-header-48px: 48px;
