@@ -377,6 +377,12 @@ section#section-3 .container .card-section-3 .body{
     border-bottom: solid 1px var(--c70);
     color: var(--c70);
     margin-bottom: 3rem;
+    cursor: pointer;
+}
+#section-4 .warp-nav ul li.warp-nav-items:hover{
+    border-bottom: solid 1px var(--Secondary);
+    color: var(--Secondary);
+    transition: 0.3s;
 }
 #section-4 .container{
     flex-wrap: wrap;
