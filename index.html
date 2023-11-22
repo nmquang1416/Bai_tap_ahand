@@ -320,29 +320,23 @@
       <h1 class="heading">Book <span>your stay</span> with us</h1>
       <div class="container">
         <img src="img/Rectangle 42.png" alt="photo" />
-        <form action="">
-          <input type="text" id="name" placeholder="Your name..." required />
+        <form action="" onsubmit="return validateForm()">
+          <input type="text" id="name" placeholder="Your name..." />
 
-          <input type="mail" id="mail" placeholder="Your mail..." required />
+          <input type="email" id="email" placeholder="Your mail..." />
 
           <input
             type="tel"
             id="phone"
             pattern="[0-9]{10}"
             placeholder="Your phone..."
-            required
           />
 
-          <input type="date" id="date" placeholder="Your date..." required />
+          <input type="date" id="date" placeholder="Your date..." />
 
-          <input type="time" id="time" placeholder="Your time..." required />
+          <input type="time" id="time" placeholder="Your time..." />
 
-          <input
-            type="number"
-            id="people"
-            placeholder="Your people..."
-            required
-          />
+          <input type="number" id="people" placeholder="Your people..." />
 
           <textarea name="" id="message" placeholder="Message..."> </textarea>
 
@@ -462,5 +456,6 @@
         Designed by 123
       </div>
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
