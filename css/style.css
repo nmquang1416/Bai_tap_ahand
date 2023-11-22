@@ -372,6 +372,7 @@ section#section-3 .container .card-section-3 .body {
   width: 400px;
   height: 359px;
   flex-shrink: 0;
+  cursor: pointer;
 }
 #section-4 .container .menu-items .content-card-section-4 {
   padding: 30px 0px;
@@ -430,6 +431,7 @@ section#section-5 .transfer-bg {
   top: 0;
   left: 0;
   z-index: 1;
+  cursor: pointer;
 }
 #section-5 .container .card-events > img {
   position: absolute;
